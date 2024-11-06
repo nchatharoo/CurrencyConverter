@@ -11,7 +11,7 @@ import CurrencyConverter
 public class MockCurrencyService: CurrencyServiceProtocol {
     var shouldReturnError = false
 
-    func getExchangeRates() async throws -> [String: Double] {
+    public func getExchangeRates() async throws -> [String: Double] {
         if shouldReturnError {
             throw URLError(.badServerResponse)
         }
