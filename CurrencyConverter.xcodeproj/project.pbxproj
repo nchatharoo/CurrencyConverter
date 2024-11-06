@@ -14,19 +14,11 @@
 			remoteGlobalIDString = 8E75FD482CDB6460000438F2;
 			remoteInfo = CurrencyConverter;
 		};
-		8E75FD642CDB6462000438F2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8E75FD412CDB645F000438F2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8E75FD482CDB6460000438F2;
-			remoteInfo = CurrencyConverter;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		8E75FD492CDB6460000438F2 /* CurrencyConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurrencyConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E75FD592CDB6462000438F2 /* CurrencyConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CurrencyConverterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E75FD632CDB6462000438F2 /* CurrencyConverterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CurrencyConverterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -38,11 +30,6 @@
 		8E75FD5C2CDB6462000438F2 /* CurrencyConverterTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = CurrencyConverterTests;
-			sourceTree = "<group>";
-		};
-		8E75FD662CDB6462000438F2 /* CurrencyConverterUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = CurrencyConverterUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -62,13 +49,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8E75FD602CDB6462000438F2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -77,7 +57,6 @@
 			children = (
 				8E75FD4B2CDB6460000438F2 /* CurrencyConverter */,
 				8E75FD5C2CDB6462000438F2 /* CurrencyConverterTests */,
-				8E75FD662CDB6462000438F2 /* CurrencyConverterUITests */,
 				8E75FD4A2CDB6460000438F2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,7 +66,6 @@
 			children = (
 				8E75FD492CDB6460000438F2 /* CurrencyConverter.app */,
 				8E75FD592CDB6462000438F2 /* CurrencyConverterTests.xctest */,
-				8E75FD632CDB6462000438F2 /* CurrencyConverterUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,29 +118,6 @@
 			productReference = 8E75FD592CDB6462000438F2 /* CurrencyConverterTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		8E75FD622CDB6462000438F2 /* CurrencyConverterUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8E75FD732CDB6462000438F2 /* Build configuration list for PBXNativeTarget "CurrencyConverterUITests" */;
-			buildPhases = (
-				8E75FD5F2CDB6462000438F2 /* Sources */,
-				8E75FD602CDB6462000438F2 /* Frameworks */,
-				8E75FD612CDB6462000438F2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8E75FD652CDB6462000438F2 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				8E75FD662CDB6462000438F2 /* CurrencyConverterUITests */,
-			);
-			name = CurrencyConverterUITests;
-			packageProductDependencies = (
-			);
-			productName = CurrencyConverterUITests;
-			productReference = 8E75FD632CDB6462000438F2 /* CurrencyConverterUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -177,10 +132,6 @@
 						CreatedOnToolsVersion = 16.1;
 					};
 					8E75FD582CDB6462000438F2 = {
-						CreatedOnToolsVersion = 16.1;
-						TestTargetID = 8E75FD482CDB6460000438F2;
-					};
-					8E75FD622CDB6462000438F2 = {
 						CreatedOnToolsVersion = 16.1;
 						TestTargetID = 8E75FD482CDB6460000438F2;
 					};
@@ -202,7 +153,6 @@
 			targets = (
 				8E75FD482CDB6460000438F2 /* CurrencyConverter */,
 				8E75FD582CDB6462000438F2 /* CurrencyConverterTests */,
-				8E75FD622CDB6462000438F2 /* CurrencyConverterUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -216,13 +166,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8E75FD572CDB6462000438F2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8E75FD612CDB6462000438F2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -246,13 +189,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8E75FD5F2CDB6462000438F2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -260,11 +196,6 @@
 			isa = PBXTargetDependency;
 			target = 8E75FD482CDB6460000438F2 /* CurrencyConverter */;
 			targetProxy = 8E75FD5A2CDB6462000438F2 /* PBXContainerItemProxy */;
-		};
-		8E75FD652CDB6462000438F2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8E75FD482CDB6460000438F2 /* CurrencyConverter */;
-			targetProxy = 8E75FD642CDB6462000438F2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -484,40 +415,6 @@
 			};
 			name = Release;
 		};
-		8E75FD742CDB6462000438F2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = P9CD4D4F5T;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nchatharoo.CurrencyConverterUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CurrencyConverter;
-			};
-			name = Debug;
-		};
-		8E75FD752CDB6462000438F2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = P9CD4D4F5T;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nchatharoo.CurrencyConverterUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CurrencyConverter;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -544,15 +441,6 @@
 			buildConfigurations = (
 				8E75FD712CDB6462000438F2 /* Debug */,
 				8E75FD722CDB6462000438F2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8E75FD732CDB6462000438F2 /* Build configuration list for PBXNativeTarget "CurrencyConverterUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8E75FD742CDB6462000438F2 /* Debug */,
-				8E75FD752CDB6462000438F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
